@@ -1,0 +1,8 @@
+pid =
+cert =/Users/hugo/PycharmProjects/login/login.pem
+debug = 7
+foreground = yes
+
+[https]
+accept = 443
+connect = 10000
