@@ -49,7 +49,7 @@ def login():
                 # resp.set_cookie('loginCookies','fjdsafjafj9392jfn',max_age= 1 * 60)
                 # return  resp
                 if request.method=='POST':
-                        if myForm.username.data=="hugo" and myForm.password.data=="hugo9091" and myForm.validate():
+                        if myForm.username.data=="hugo" and myForm.password.data=="hugo" and myForm.validate():
                                 # return redirect("http://www.baidu.com")
                                 resp = make_response(redirect('http://www.baidu.com'))
                                 #resp = app.make_response(render_template('index.html',form=myForm))
