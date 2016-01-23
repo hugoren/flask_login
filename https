@@ -1,5 +1,5 @@
 pid =
-cert =/Users/hugo/PycharmProjects/login/login.pem
+cert =/Users/hugo/XX/login/login.pem
 debug = 7
 foreground = yes
 
